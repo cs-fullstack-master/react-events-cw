@@ -6,6 +6,6 @@ Create 3 sets of labels with buttons below them for 3 different “players” (i
 
 Clicking on the player button will add 1 point to their score, which is the zero after their label. If you click on 1pt, 5pts, or 10pts clicking on the player button will increase each click by the appropriate amount.
 
-### Challenge:
+# Challenge:
 
 Change the button label on each button and make the labels and buttons horizontal on the page.
