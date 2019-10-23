@@ -1,11 +1,7 @@
 # react-events-cw
 
-Increase the amount of points for each button click with 3 places to click a button on a page.
+Create a React app that will increase the points-per-click for each player after clicking one of the buttons at the top of the page. See 2019-04-02_cw.png in this project as a reference.
 
-Create 3 sets of labels with buttons below them for 3 different “players” (it doesn't need to be in table). Each label should say Player 1, 2, or 3 with a zero after the text and a button with the text “1pt”. Above that create 3 more buttons with 1pt, 5pts, 10pts.
+Create a React app with two Components: GameBoard and Player. Gameboard should have 3 buttons and 3 Player components. The three buttons should be labels as 1pt, 3pt, and 5pts. The Player component should have a lable for player name, a label for score, and a button called Increase Score.
 
-Clicking on the player button will add 1 point to their score, which is the zero after their label. If you click on 1pt, 5pts, or 10pts clicking on the player button will increase each click by the appropriate amount.
-
-# Challenge:
-
-Change the button label on each button and make the labels and buttons horizontal on the page.
+Clicking on the player button will add 1 point to their score. If you click on 1pt, 3pt, or 5pt buttons in GameBoard the score will be increased by each click when pressing the Increase Score button in the Player component by the appropriate amount.
